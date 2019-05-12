@@ -113,11 +113,11 @@
 <div class="divider-5"></div>
 
 <script>
-    function home() {
+    function active() {
         document.getElementById("home").style.color = "#ff0162"; //#575757
     }
 
-    home();
+    active();
 </script>
 
 <?php include ("data/foot.php"); ?>

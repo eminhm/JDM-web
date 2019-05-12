@@ -196,11 +196,11 @@
 </div>
 
 <script>
-    function home() {
-        document.getElementById("home").style.color = "#ff0162"; //#575757
+    function active() {
+        document.getElementById("cars").style.color = "#ff0162"; //#575757
     }
 
-    home();
+    active();
 </script>
 
 <?php include ("data/foot.php"); ?>

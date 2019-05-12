@@ -15,7 +15,7 @@ Start of Navigation
                 </a>
             </li>
             <li class="nav-item">
-                <a id="gallery" class="nav-link" href="cars.php">
+                <a id="cars" class="nav-link" href="cars.php">
                     <?php echo $lang['cars'] ?>
                 </a>
             </li>
