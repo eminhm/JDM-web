@@ -9,8 +9,9 @@
                 Nissan Skyline
             </h1>
             <h4>GT-R R34</h4>
+            <div class="divider-2"></div>
             <h5>
-                <a href="#image-gallery" class="c-white">
+                <a href="#image-gallery" class="c-white arrow-container">
                     <i class="fas fa-arrow-down"></i>
                 </a>
             </h5>
@@ -20,29 +21,77 @@
 
 <div class="container" id="image-gallery">
     <div class="image-gallery car-gallery">
-        <a href="#">
+
+        <!-- Image 1
+        =============================================!-->
+        <a href="#img1">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+        <a href="##" class="lightbox" id="img1">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+
+        <!-- Image 2
+        =============================================!-->
+        <a href="#img2">
             <img class="img-fluid" src="img/placeholder.png">
         </a>
-        <a href="#">
+        <a href="##" class="lightbox" id="img2">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+
+        <!-- Image 3
+        =============================================!-->
+        <a href="#img3">
             <img class="img-fluid" src="img/placeholder.png">
         </a>
-        <a href="#">
+        <a href="##" class="lightbox" id="img3">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+
+        <!-- Image 4
+        =============================================!-->
+        <a href="#img4">
             <img class="img-fluid" src="img/placeholder.png">
         </a>
-        <a href="#">
+        <a href="##" class="lightbox" id="img4">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+
+        <!-- Image 5
+        =============================================!-->
+        <a href="#img5">
             <img class="img-fluid" src="img/placeholder.png">
         </a>
-        <a href="#">
+        <a href="##" class="lightbox" id="img5">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+
+        <!-- Image 6
+        =============================================!-->
+        <a href="#img6">
             <img class="img-fluid" src="img/placeholder.png">
         </a>
-        <a href="#">
+        <a href="##" class="lightbox" id="img6">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+
+        <!-- Image 7
+        =============================================!-->
+        <a href="#img7">
             <img class="img-fluid" src="img/placeholder.png">
         </a>
-        <a href="#">
+        <a href="##" class="lightbox" id="img7">
+            <img src="img/placeholder.png" class="img-fluid">
+        </a>
+
+        <!-- Image 8
+        =============================================!-->
+        <a href="#img8">
             <img class="img-fluid" src="img/placeholder.png">
         </a>
-        <a href="#">
-            <img class="img-fluid" src="img/placeholder.png">
+        <a href="##" class="lightbox" id="img8">
+            <img src="img/placeholder.png" class="img-fluid">
         </a>
     </div>
 </div>
@@ -51,11 +100,11 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 offset-3 text-center">
+        <div class="col-md-6 offset-md-3 text-center">
             <h4 class="inline">Nissan Skyline&nbsp;</h4>
             <h2 class="font-jap c-red inline"><strong>[ 日産・スカイライン ]</strong></h2>
             <p class="text-center">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                <?php echo $lang['intro-skyline-r34'] ?>
             </p>
         </div>
     </div>
@@ -63,53 +112,13 @@
 
 <div class="divider-5"></div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-10">
-            <div class="row-divider"></div>
+<script>
+    function home() {
+        document.getElementById("home").style.color = "#ff0162"; //#575757
+    }
 
-        </div>
-
-        <div class="col-2">
-            <div id="sidebar">
-                <div class="row-divider"></div>
-                <h3>Fixed Sidebar</h3>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <button class="btn">
-                            Placeholder
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+    home();
+</script>
 
 <?php include ("data/foot.php"); ?>
 <?php include ("data/footer.php"); ?>

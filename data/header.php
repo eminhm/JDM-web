@@ -10,8 +10,13 @@ Start of Navigation
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a id="home" class="nav-link" href="#">
+                <a id="home" class="nav-link" href="./">
                     <?php echo $lang['home'] ?>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a id="gallery" class="nav-link" href="cars.php">
+                    <?php echo $lang['cars'] ?>
                 </a>
             </li>
             <li class="nav-item">
@@ -20,7 +25,7 @@ Start of Navigation
                 </a>
             </li>
             <li class="nav-item">
-                <a id="about" class="nav-link" href="#">
+                <a id="about" class="nav-link" href="nissan.php">
                     <?php echo $lang['about'] ?>
                 </a>
             </li>
