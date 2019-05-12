@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            min-height: 2000px;
+        }
+        #elem {
+            position: relative;
+            top: 20px;
+            left: 20px ;
+            width: 50px;
+            height: 50px;
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id = "elem">
+
+</div>
+
+<script>
+    window.onscroll = sidebar; //calling myFunction each time we scroll
+
+    // Filename: script.js
+    function sidebar(){
+        var element = document.getElementById("elem");
+        var desiredPosition = 20;
+        if(window.pageYOffset >= desiredPosition){
+            element.style.cssText += "position: fixed; top: auto; bottom: 20px; right: 20px; left: auto;";
+        }
+        else {
+            element.style.cssText += "position: relative; top: 20px; bottom: auto; right: auto; left: 20px;";
+        }
+    }
+</script>
+
+</body>
+</html>

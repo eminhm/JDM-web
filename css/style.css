@@ -1,0 +1,135 @@
+/*=====================================
+General
+=====================================*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'circular', sans-serif;
+    background-color: black;
+    color: white;
+    min-height: 1500px;
+}
+
+header {
+    margin: 20px 10px 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/*=====================================
+Link
+=====================================*/
+a {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*=====================================
+Link Anchor Offset
+=====================================*/
+:target:before {
+    content:"";
+    display:block;
+    height:200px;
+    margin:-200px 0 0;
+}
+
+/*=====================================
+Dividers
+=====================================*/
+.row-divider {
+    height: 50px;
+}
+
+.nav-divider {
+    height: 75px;
+}
+
+
+.list-unstyled li {
+    text-decoration: none;
+}
+
+#sidebar {
+    padding-left: 20px;
+    height: 100%;
+}
+
+/*=====================================
+Buttons
+=====================================*/
+.btn {
+    border-radius: 100px;
+    padding: 5px 100px;
+    color: white;
+    background-color: black;
+}
+
+/*=====================================
+Parralax + Supermodule
+=====================================*/
+.parallax {
+    padding-top: 100px;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.supermodule-center {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.supermodule h1 {
+    font-size: 3rem;
+}
+
+.supermodule h4 {
+    color: #000000;
+    margin-top: -10px;
+    letter-spacing: 1px;
+    background: #f8f9fa;
+    border-radius: 100px;
+}
+
+/*=====================================
+Image Gallery
+=====================================*/
+.car-gallery {
+    margin-top: -130px;
+}
+
+.image-gallery {
+    column-count: 4;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+.image-gallery a img {
+    margin-bottom: 40px;
+    float: left;
+}
+
+.inline {
+    display:inline-block;
+}
+
+.divider-5 {height: 100px;}

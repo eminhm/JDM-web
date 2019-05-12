@@ -1,0 +1,49 @@
+/*=====================================
+Import Fonts
+=====================================*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+
+@font-face {
+    font-family: circular;
+    src: url(../font/circular-bold.ttf);
+}
+
+@font-face {
+    font-family: circular-book;
+    src: url(../font/circular-book.ttf);
+}
+
+@font-face {
+    font-family: circular-medium;
+    src: url(../font/circular-medium.ttf);
+}
+
+/*=====================================
+Titles
+=====================================*/
+h1 {font-size: 1.5rem}
+h2 {font-size: 1.3rem}
+h3 {font-size: 1.2rem}
+h4 {font-size: 1.1rem}
+h5 {font-size: 1rem}
+h6 {font-size: 0.9rem}
+
+/*=====================================
+Colors
+=====================================*/
+.c-white {color: #ffff;}
+.c-red, .c-red a {color: #ff004d !important;}
+
+p {
+    font-family: 'circular-book', sans-serif;
+    color: #ebebeb;
+}
+
+.font-jap {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
