@@ -4,7 +4,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide center-block" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -16,25 +16,26 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/blur.png" alt="First slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/blur.png" alt="Second slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/blur.png" alt="Third slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/blur.png" alt="Third slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/blur.png" alt="Third slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/blur.png" alt="Third slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/blur.png" alt="Third slide">
+                    <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -56,7 +57,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/nissan_skyline_cover.png">
+                <img class="content-image img-fluid" src="img/cover/nissan_skyline_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Nissan Skyline</h3>
                     <p class="content-text">GT-R R34</p>
@@ -66,7 +67,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/toyota_supra_cover.png">
+                <img class="content-image img-fluid" src="img/cover/toyota_supra_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Toyota Supra</h3>
                     <p class="content-text">MK4</p>
@@ -76,7 +77,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/toyota_supra_mk3_cover.png">
+                <img class="content-image img-fluid" src="img/cover/toyota_supra_mk3_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Toyota Supra</h3>
                     <p class="content-text">MK3</p>
@@ -86,7 +87,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/subaru_impreza_wrx_sti_2_cover.png">
+                <img class="content-image img-fluid" src="img/cover/subaru_impreza_wrx_sti_2_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Subaru Impreza</h3>
                     <p class="content-text">WRX STI</p>
@@ -96,7 +97,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/toyota_ae86_cover.png">
+                <img class="content-image img-fluid" src="img/cover/toyota_ae86_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h4 class="content-title">Toyota Corolla/Sprinter</h4>
                     <p class="content-text">AE86</p>
@@ -106,7 +107,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/honda_nsx_cover.png">
+                <img class="content-image img-fluid" src="img/cover/honda_nsx_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Honda ACURA NSX</h3>
                     <p class="content-text">NA1 (1990–1997)</p>
@@ -116,7 +117,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/nissan_silvia_cover.png">
+                <img class="content-image img-fluid" src="img/cover/nissan_silvia_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Nissan Silvia</h3>
                     <p class="content-text">-</p>
@@ -126,7 +127,7 @@
         <div class="content">
             <a href="nissan.php">
                 <div class="content-overlay"></div>
-                <img class="content-image img-fluid" src="img/mazda_rx7_cover.png">
+                <img class="content-image img-fluid" src="img/cover/mazda_rx7_cover.png">
                 <div class="content-details fadeIn-bottom">
                     <h3 class="content-title">Mazda RX7</h3>
                     <p class="content-text">2. Generation (1985–1991)</p>
@@ -183,11 +184,6 @@
                         <a href="#">
                             Placeholder Link
                         </a>
-                    </li>
-                    <li>
-                        <button class="btn">
-                            Placeholder
-                        </button>
                     </li>
                 </ul>
             </div>

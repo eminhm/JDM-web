@@ -251,23 +251,28 @@ Image Hover Overlay
     top: 80%;
 }
 
-.carousel-item img {
+/*=====================================
+Carousel
+=====================================*/
+.carousel-item {
     height: 100vh;
 }
 
+.carousel-item img {
+    width: 100vw;
+    object-fit: cover;
+}
 
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
-
-
-/** LIGHTBOX MARKUP **/
-
+/*=====================================
+Image Lightbox
+=====================================*/
 .lightbox {
-    /** Default lightbox to hidden */
     display: none;
-
-    /** Position and style */
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -279,21 +284,53 @@ Image Hover Overlay
 }
 
 .lightbox img {
-    /** Pad the lightbox image */
     max-width: 90%;
     max-height: 80%;
-
     -webkit-transform: translate(-50%, 25%);
     -moz-transform: translate(-50%, 25%);
     transform: translate(-50%, 25%);
-
     position: absolute;
 }
 
 .lightbox:target {
-    /** Remove default browser outline */
     outline: none;
-
-    /** Unhide lightbox **/
     display: block;
+}
+
+/*=====================================
+Table
+=====================================*/
+table, th, td {
+    border: 1px solid #6d2fe9;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: grey;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #6d2fe9;
+}
+
+.table-header {
+    padding: .75rem;
+    border: 1px solid #6d2fe9;
+    margin-bottom: -1px;
+    color: #ba50ff;
+    text-align: center;
+}
+
+
+hr {
+    border-color: #262626;
+}
+
+.border {
+    border-color: #262626 !important;
 }
