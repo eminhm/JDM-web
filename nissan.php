@@ -25,10 +25,10 @@
         <!-- Image 1
         =============================================!-->
         <a href="#img1">
-            <img src="img/placeholder/placeholder.png" class="img-fluid">
+            <img src="img/cars/nissan-sklyine-gtr-r34/1_square.jpg" class="img-fluid">
         </a>
         <a href="##" class="lightbox" id="img1">
-            <img src="img/placeholder/placeholder.png" class="img-fluid">
+            <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
         </a>
 
         <!-- Image 2
@@ -37,7 +37,7 @@
             <img class="img-fluid" src="img/placeholder/placeholder.png">
         </a>
         <a href="##" class="lightbox" id="img2">
-            <img src="img/placeholder/placeholder.png" class="img-fluid">
+            <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
         </a>
 
         <!-- Image 3
@@ -100,8 +100,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 offset-3 text-center">
-            <h4 class="inline">Nissan Skyline&nbsp;</h4>
+        <div class="col-md-6">
+            <h3 class="inline">Nissan Skyline&nbsp;</h3>
             <h2 class="font-jap c-red inline"><strong>[ 日産・スカイライン ]</strong></h2>
             <p>
                 <strong>
@@ -109,7 +109,15 @@
                 </strong>
             </p>
 
-            <div class="divider-5"></div>
+            <div class="divider-1"></div>
+
+            <p class="text-justify">
+                <?php echo $lang['intro-skyline-r34'] ?>
+            </p>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <video src="video/skyline_r34.mp4" class="border" controls></video>
+            </div>
         </div>
 
         <div class="col-md-6">
@@ -154,15 +162,6 @@
                     <td>2'564 cm3</td>
                 </tr>
             </table>
-        </div>
-
-        <div class="col-6">
-            <p class="text-justify">
-                <?php echo $lang['intro-skyline-r34'] ?>
-            </p>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="border embed-responsive-item" src="video/skyline_r34.mp4" allowfullscreen></iframe>
-            </div>
         </div>
     </div>
 </div>
