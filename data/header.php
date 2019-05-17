@@ -36,8 +36,8 @@ Start of Navigation
                     <?php echo $lang['language'] ?>
                 </a>
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="?lang=en">English</a>
-                    <a class="dropdown-item" href="?lang=de">Deutsch</a>
+                    <a class="dropdown-item" href="?lang=en"><img src="img/flag/gb.svg" class="flag"> English</a>
+                    <a class="dropdown-item" href="?lang=de"><img src="img/flag/de.svg" class="flag"> Deutsch</a>
                 </div>
             </li>
         </ul>

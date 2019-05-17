@@ -2,11 +2,11 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Onekkss & Ripper Collaboration is an independent Swiss company whose purpose is to develop video games that stand out from the crowd. An inventive team - based in Zurich, consisting of two young people, who want to touch the hearts of the players through their stories in video games and at the same time arouse fun and happiness">
-    <meta name="keywords" content="RPG,Game,RPG-Game,Roleplay,EXPI,expi,Expi,Games,Steam,Console,onexTM,onex">
-    <meta name="author" content="onexTM">
+    <meta name="description" content="Started in Japan.">
+    <meta name="keywords" content="JDM,Japanese Domestic Market,Cars,Japanese Cars,Tuned Cars">
+    <meta name="author" content="Emin Can Homalioglu">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JDM</title>
+    <title>JDM | Japanese Domestic Market</title>
 
     <!--=============================================
     Bootstrap CSS Library
@@ -21,9 +21,9 @@
     <!--=============================================
     Stylesheets
     =============================================!-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/text.css">
-    <link rel="stylesheet" type="text/css" href="css/navigation.css">#
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/text.css">
+    <link rel="stylesheet" type="text/css" href="./css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
 </head>
 <body>

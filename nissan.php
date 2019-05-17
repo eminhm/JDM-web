@@ -1,6 +1,6 @@
-<?php include("config.php"); ?>
-<?php include ("data/head.php"); ?>
-<?php include ("data/header.php"); ?>
+<?php include("./config.php"); ?>
+<?php include("./data/head.php"); ?>
+<?php include("./data/header.php"); ?>
 
 <div class="parallax" style="background-image: url(img/skyline.jpg);">
     <div class="container-fluid">
@@ -176,5 +176,5 @@
     active();
 </script>
 
-<?php include ("data/foot.php"); ?>
-<?php include ("data/footer.php"); ?>
+<?php include("./data/foot.php"); ?>
+<?php include("./data/footer.php"); ?>

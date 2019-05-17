@@ -150,6 +150,14 @@ Image Gallery
     float: left;
 }
 
+.image-gallery-gap-10 {
+    column-gap: 10px !important;
+}
+
+.image-gallery-gap-10 a img {
+    margin-bottom: 10px !important;
+}
+
 @media only screen and (max-width: 991px) {
     .image-gallery {
         column-count: 2;
@@ -179,6 +187,9 @@ Dividers
 .divider-4 {height: 80px;}
 .divider-5 {height: 100px;}
 
+.no-margin {
+    margin: 0 !important;
+}
 
 /*=====================================
 Arrow Animation

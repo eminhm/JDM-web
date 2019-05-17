@@ -1,150 +1,187 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <title>JDM</title>
+<?php include("config.php"); ?>
+<?php include ("data/head.php"); ?>
+<?php include ("data/header.php"); ?>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
 
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand c-yellow" href="#">Japanese Domestic Market</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
-    </div>
-</nav><?php echo $lang['home'] ?>
-
-<div class="nav-divider"></div>
-<div class="container">
-    <div class="row">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/placeholder.jpg" alt="First slide">
+    <div class="container-fluid">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide center-block" data-ride="carousel">
+                <!-- Indicators
+                =============================================!-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                </ol>
+                <!-- Images
+                =============================================!-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/wallpaper/nissan_gtr_r34_1.jpg" alt="Third slide">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/red.jpg" alt="Second slide">
+                <!-- Controls
+                =============================================!-->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="fas fa-arrow-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="fas fa-arrow-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <!-- Supermodule
+                =============================================!-->
+                <div class="supermodule supermodule-center text-center">
+                    <h1>
+                        Japanese Domestic Market
+                    </h1>
+                    <h4>Started in Japan.</h4>
+                    <div class="divider-2"></div>
+                    <h5>
+                        <a href="#image-gallery" class="c-white arrow-container">
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </h5>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/vio.jpg" alt="Third slide">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-10">
-            <div class="row-divider"></div>
-            <p class="text-justify">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            </p>
-        </div>
-
-        <div class="col-2">
-            <div id="sidebar">
-                <div class="row-divider"></div>
-                <h3>Fixed Sidebar</h3>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Placeholder Link
-                        </a>
-                    </li>
-                    <li>
-                        <button class="btn">
-                            Placeholder
-                        </button>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="divider-5"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="image-gallery image-gallery-gap-10">
+
+                    <!-- Image 1
+                    =============================================!-->
+                    <a href="#img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+                    =============================================!-->
+                    <a href="#img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+=============================================!-->
+                    <a href="#img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+                    =============================================!-->
+                    <a href="#img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+=============================================!-->
+                    <a href="#img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+                    =============================================!-->
+                    <a href="#img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+=============================================!-->
+                    <a href="#img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+                    =============================================!-->
+                    <a href="#img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+=============================================!-->
+                    <a href="#img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img1">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/1.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 1
+                    =============================================!-->
+                    <a href="#img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img2">
+                        <img src="img/cars/nissan-sklyine-gtr-r34/3.jpg" class="img-fluid">
+                    </a>
 
 
-<script>
-    window.onscroll = sidebar; //calling myFunction each time we scroll
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider-5"></div>
 
-    // Filename: script.js
-    function sidebar(){
-        var element = document.getElementById("sidebar");
-        var desiredPosition = 440;
-        if(window.pageYOffset >= desiredPosition){
-            element.style.cssText += "position: fixed; top: 20px; flex: 0 0 11.2%; max-width: 11.2%;";
+    <script>
+        function active() {
+            document.getElementById("home").style.color = "#ff0162"; //#575757
         }
-        else {
-            element.style.cssText += "position: relative; top: 0; flex: 0 0 100%; max-width: 100%;";
-        }
-    }
-</script>
-</body>
-</html>
+
+        active();
+    </script>
+
+<?php include ("data/foot.php"); ?>
+<?php include ("data/footer.php"); ?>

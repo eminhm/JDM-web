@@ -77,3 +77,9 @@ Navigation: Logo
     top: 5px;
     transition: top ease 1s;
 }
+
+.flag {
+    border: solid 1px #303030;
+    width: 12px;
+    margin-top: -2px;
+}

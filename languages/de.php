@@ -5,7 +5,7 @@
         "cars" => "Autos",
         "gallery" => "Galerie",
         "about" => "Über",
-        "language" => "[DE] Sprache",
+        "language" => "<img src=\"img/flag/de.svg\" class=\"flag\"> Sprache",
 
         "specs" => "Spezifikationen",
 
