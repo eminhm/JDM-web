@@ -36,8 +36,10 @@ h6 {font-size: 0.9rem}
 /*=====================================
 Colors
 =====================================*/
-.c-white {color: #ffff;}
+.c-white {color: #ffff !important;}
+.c-grey {color: #9b9b9b !important;}
 .c-red, .c-red a {color: #ff004d !important;}
+.c-violet {color: #6d2fe9 !important;}
 
 p {
     font-family: 'circular-book', sans-serif;
@@ -50,4 +52,28 @@ p {
 
 small {
     color: grey;
+    font-family: 'circular-book', sans-serif;
+}
+
+mark {
+    background-color: #4b20a0;
+    color: white;
+}
+
+dfn {
+    border-bottom: solid 1px grey;
+}
+
+.ls {
+    letter-spacing: 2px;
+}
+
+.column-2 {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.column-3 {
+    column-count: 3;
+    column-gap: 20px;
 }

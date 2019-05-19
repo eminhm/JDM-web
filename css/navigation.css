@@ -78,6 +78,10 @@ Navigation: Logo
     transition: top ease 1s;
 }
 
+.logo-center a img {
+    width: 40px;
+}
+
 .flag {
     border: solid 1px #303030;
     width: 12px;
