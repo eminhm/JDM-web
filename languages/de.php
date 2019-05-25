@@ -9,6 +9,11 @@
         "language" => "<img src=\"/img/flag/de.svg\" class=\"flag\"> Sprache",
         "sm_msg" => "Folgen Sie uns auf Social Media",
 
+        "gallery_text" => "Unsere Galerie bietet Ihnen eine Bilder-Kollektion von japanischen Autos an.",
+        "cars_text" => "Was ist Japanese Domestic Market [JDM]? Erfahren Sie mehr und kontaktieren Sie uns gerne über 
+        das Kontaktforumular.",
+
+
         "contactform" => "Kontaktformular",
         "contactform_desc" => "Kontaktieren Sie uns und teilen Sie Ihre Meinung, stellen Sie Ihre Fragen oder erzählen Sie uns etwas anderes. Wir sind offen für alles.",
         "first_name" => "Vorname",

@@ -11,6 +11,15 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="image-gallery image-gallery-gap-10">
+                    <!-- Image 0
+                    =============================================!-->
+                    <a href="#img0">
+                        <img src="/img/gallery/0.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img0">
+                        <img src="/img/gallery/0.jpg" class="img-fluid">
+                    </a>
+
 
                     <!-- Image 1
                     =============================================!-->
@@ -181,6 +190,42 @@
                     </a>
                     <a href="##" class="lightbox" id="img19">
                         <img src="/img/gallery/19.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 20
+                    =============================================!-->
+                    <a href="#img19">
+                        <img src="/img/gallery/20.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img20">
+                        <img src="/img/gallery/20.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 21
+                    =============================================!-->
+                    <a href="#img19">
+                        <img src="/img/gallery/21.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img21">
+                        <img src="/img/gallery/21.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 22
+                    =============================================!-->
+                    <a href="#img19">
+                        <img src="/img/gallery/22.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img22">
+                        <img src="/img/gallery/22.jpg" class="img-fluid">
+                    </a>
+
+                    <!-- Image 23
+                    =============================================!-->
+                    <a href="#img19">
+                        <img src="/img/gallery/23.jpg" class="img-fluid">
+                    </a>
+                    <a href="##" class="lightbox" id="img23">
+                        <img src="/img/gallery/23.jpg" class="img-fluid">
                     </a>
                 </div>
             </div>

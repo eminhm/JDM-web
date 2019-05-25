@@ -58,39 +58,98 @@
     <div class="divider-5"></div>
 
     <!--=============================================
-    Content
+    Cars Gallery
     =============================================!-->
-    <div class="container" id="introduction">
+    <div class="container" id="image-gallery">
 
-        <!-- Cars
+        <!-- Head Title
         =============================================!-->
         <div class="row">
-            <div class="col-lg-1 col-md-2 col-sm-4 col-3">
-                <h1><?php echo $lang['cars'] ?></h1>
+            <div class="col-md-11">
+                <div class="text-uppercase">
+                    <h1 class="content-title"><?php echo $lang['cars'] ?></h1>
+                </div>
+            </div>
+
+            <div class="col-md-1">
                 <a href="/cars.php" class="more-container">
-                    <span class="c-red">
-                        <?php echo $lang['more'] ?>
+                    <span class="c-red"><?php echo $lang['more'] ?>
                         <i class="fas fa-arrow-right"></i>
                     </span>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-8 col-9">
-                <p class="text-right">
-                    Erfahren Sie mehr über die Spezifikationen und Kenndaten von japanischen Autos.
-                </p>
-            </div>
 
-            <div class="col-md-8">
-                <hr>
+            <div class="col-md-12">
+                <hr class="no-margin">
+                <div class="divider-1"></div>
             </div>
         </div>
 
-        <div class="divider-2"></div>
+        <!-- Image Gallery
+        =============================================!-->
+        <div class="image-gallery">
+            <div class="content">
+                <a href="cars/n_skyline_r34.php">
+                    <div class="content-overlay"></div>
+                    <img class="content-image img-fluid" src="/img/cars/cover/nissan_skyline_cover.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Nissan Skyline</h3>
+                        <p class="content-text">GT-R R34</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="cars/t_supra_mk3.php">
+                    <div class="content-overlay"></div>
+                    <img class="content-image img-fluid" src="/img/cars/cover/toyota_supra_mk3_cover.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Toyota Supra</h3>
+                        <p class="content-text">MK3</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a class="disabled">
+                    <div class="content-overlay"></div>
+                    <div class="cs-module">
+                        <?php echo $lang['coming_soon'] ?>
+                    </div>
+                    <img class="content-image img-fluid" src="/img/cars/cover/toyota_supra_cover.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Toyota Supra</h3>
+                        <p class="content-text">MK4</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a class="disabled">
+                    <div class="content-overlay"></div>
+                    <div class="cs-module">
+                        <?php echo $lang['coming_soon'] ?>
+                    </div>
+                    <img class="content-image img-fluid" src="/img/cars/cover/subaru_impreza_wrx_sti_2_cover.png">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Subaru Impreza</h3>
+                        <p class="content-text">WRX STI</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="divider-3"></div>
+    </div>
+
+    <!--=============================================
+    Content
+    =============================================!-->
+    <div class="container" id="introduction">
+
+        <hr>
+        <div class="divider-1"></div>
 
         <!-- Gallery
         =============================================!-->
         <div class="row">
-            <div class="col-lg-1 col-md-2 col-sm-4 col-3">
+            <div class="col-md-1">
                 <h1><?php echo $lang['gallery'] ?></h1>
                 <a href="/gallery.php" class="more-container">
                     <span class="c-red">
@@ -99,23 +158,18 @@
                     </span>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-8 col-9">
+            <div class="col-md-4">
                 <p class="text-right">
-                    Unsere Galerie bietet Ihnen eine Bilder-Kollektion von japanischen Autos an.
+                    <?php echo $lang['gallery_text'] ?>
                 </p>
             </div>
 
-            <div class="col-md-8">
-                <hr>
-            </div>
-        </div>
 
-        <div class="divider-2"></div>
+            <div class="divider-2"></div>
 
-        <!-- About
-        =============================================!-->
-        <div class="row">
-            <div class="col-lg-1 col-md-2 col-sm-4 col-3">
+            <!-- About
+            =============================================!-->
+            <div class="col-md-1 offset-md-2">
                 <h1><?php echo $lang['about'] ?></h1>
                 <a href="/about.php" class="more-container">
                     <span class="c-red">
@@ -124,16 +178,15 @@
                     </span>
                 </a>
             </div>
-            <div class="col-md-4 col-sm-8 col-9">
+            <div class="col-md-4">
                 <p class="text-right">
-                    Was ist <b>Japanese Domestic Market [JDM]</b>? Erfahren Sie mehr und kontaktieren Sie uns gerne über
-                    das Kontaktforumular.
+                    <?php echo $lang['cars_text'] ?>
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="divider-4"></div>
+    <div class="divider-5"></div>
 
     <!--=============================================
     Nav Active Script

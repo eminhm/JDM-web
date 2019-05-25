@@ -5,11 +5,15 @@
     <div class="divider-6"></div>
 
     <div class="container" id="image-gallery">
+        <!-- Header Title
+        =============================================!-->
         <div class="text-uppercase">
             <h1 class="content-title no-margin"><?php echo $lang['cars'] ?></h1>
             <hr>
         </div>
         <div class="image-gallery">
+            <!-- Car 1
+            =============================================!-->
             <div class="content">
                 <a href="cars/n_skyline_r34.php">
                     <div class="content-overlay"></div>
@@ -20,6 +24,9 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Car 2
+            =============================================!-->
             <div class="content">
                 <a class="disabled">
                     <div class="content-overlay"></div>
@@ -33,6 +40,9 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Car 3
+            =============================================!-->
             <div class="content">
                 <a href="cars/t_supra_mk3.php">
                     <div class="content-overlay"></div>
@@ -43,6 +53,9 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Car 4
+            =============================================!-->
             <div class="content">
                 <a class="disabled">
                     <div class="content-overlay"></div>
@@ -56,6 +69,9 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Car 5
+            =============================================!-->
             <div class="content">
                 <a class="disabled">
                     <div class="content-overlay"></div>
@@ -69,6 +85,9 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Car 6
+            =============================================!-->
             <div class="content">
                 <a class="disabled">
                     <div class="content-overlay"></div>
@@ -82,6 +101,9 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Car 7
+            =============================================!-->
             <div class="content">
                 <a class="disabled">
                     <div class="content-overlay"></div>
@@ -95,6 +117,9 @@
                     </div>
                 </a>
             </div>
+
+            <!-- Car 8
+            =============================================!-->
             <div class="content">
                 <a class="disabled">
                     <div class="content-overlay"></div>

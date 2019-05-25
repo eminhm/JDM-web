@@ -292,7 +292,7 @@ More Animation
     position: absolute;
     animation: more 1s infinite;
     text-shadow: 1px 1px 2px black;
-    float: left;
+    float: right;
     margin-top: -8px;
 }
 
